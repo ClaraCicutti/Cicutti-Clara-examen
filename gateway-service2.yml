@@ -28,7 +28,6 @@ spring:
         - AddRequestHeader=user-request-header, custom-user-request-header
         - AddResponseHeader=user-response-header, custom-user-response-header
         - LogFilter
-        - TokenRelay
 
   security:
     oauth2:
